@@ -32,6 +32,13 @@
 .common-bg-color{
     background-color: #fff;
 }
+.common-heading{
+        color: rgb(13, 19, 33);
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin: 20px 0;
+}
 
 /* styling nav section */
 nav {
@@ -83,13 +90,6 @@ nav h3 {
     background: rgba(7, 9, 15, 0.02);
     margin: 60px 150px;
 }
-.about-section h2{
-    color: rgb(13, 19, 33);
-    font-size: 30px;
-    font-weight: bolder;
-    line-height: 35px;
-    margin: 20px 0;
-}
 .about-section p{
     margin:50px;
 }
@@ -104,4 +104,16 @@ nav h3 {
 }
 .about p{
     margin:20px 0px;
+}
+
+/* inspration section start */
+.inspiration-section{
+    text-align: center;
+    margin: 10px 148px;
+}
+.inspiration-section iframe{
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33,0.1);
+    border-radius: 10px;
+    margin-top: 30px;
 }
