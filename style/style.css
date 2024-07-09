@@ -29,6 +29,9 @@
     font-size: 20px;
     line-height: 25px;
 }
+.common-bg-color{
+    background-color: #fff;
+}
 
 /* styling nav section */
 nav {
@@ -72,4 +75,33 @@ nav h3 {
 .banner button:hover{
     background-color: rgb(60, 65, 77);
     transition: 1s;
+}
+/* styling main section */
+.about-section{
+    text-align: center;
+    padding: 20px;
+    background: rgba(7, 9, 15, 0.02);
+    margin: 60px 150px;
+}
+.about-section h2{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 35px;
+    margin: 20px 0;
+}
+.about-section p{
+    margin:50px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 45px;
+    padding: 45px;
+    
+}
+.about p{
+    margin:20px 0px;
 }
