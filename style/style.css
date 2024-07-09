@@ -6,7 +6,8 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-*{
+
+* {
     margin: 0;
 }
 
@@ -24,20 +25,30 @@
     background-color: rgb(223, 220, 220);
     transition: 1s;
 }
-.common-text-style{
+
+.common-text-style {
     color: rgb(33, 41, 60);
     font-size: 20px;
     line-height: 25px;
 }
-.common-bg-color{
+
+.common-bg-color {
     background-color: #fff;
 }
-.common-heading{
-        color: rgb(13, 19, 33);
-        font-size: 30px;
-        font-weight: bolder;
-        line-height: 35px;
-        margin: 20px 0;
+
+.common-heading {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 35px;
+    margin: 20px 0;
+}
+.common-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 50px;
+    
 }
 
 /* styling nav section */
@@ -54,23 +65,26 @@ nav h3 {
     font-weight: bolder;
 
 }
+
 /* styling banner section */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(/assets/Hero-bg.png);
     background-size: cover;
-    padding:25px 220px 45px 220px ;
+    padding: 25px 220px 45px 220px;
     text-align: center;
 
 }
-.banner h1{
+
+.banner h1 {
     color: rgb(13, 19, 33);
     font-size: 45px;
     line-height: 65px;
 }
-.banner button{
+
+.banner button {
     background-color: rgb(13, 19, 33);
     border-radius: 8px;
     color: white;
@@ -79,41 +93,84 @@ nav h3 {
     border: none;
     margin: 20px 0px;
 }
-.banner button:hover{
+
+.banner button:hover {
     background-color: rgb(60, 65, 77);
     transition: 1s;
 }
+
 /* styling main section */
-.about-section{
+.about-section {
     text-align: center;
     padding: 20px;
     background: rgba(7, 9, 15, 0.02);
     margin: 60px 150px;
 }
-.about-section p{
-    margin:50px;
+
+.about-section p {
+    margin: 50px;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: space-between;
     text-align: left;
     margin: 45px;
     padding: 45px;
-    
+
 }
-.about p{
-    margin:20px 0px;
+
+.about p {
+    margin: 20px 0px;
 }
 
 /* inspration section start */
-.inspiration-section{
+.inspiration-section {
     text-align: center;
     margin: 10px 148px;
 }
-.inspiration-section iframe{
+
+.inspiration-section iframe {
     padding: 40px;
-    border: 1px solid rgba(13, 19, 33,0.1);
+    border: 1px solid rgba(13, 19, 33, 0.1);
     border-radius: 10px;
     margin-top: 30px;
+}
+
+/* target section start */
+.target-section {
+    text-align: center;
+    margin: 70px 148px;
+}
+
+.target-description {
+    margin-bottom: 45px;
+}
+
+.target {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 40px;
+    gap: 15px;
+
+}
+
+.target-html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-css {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-js {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
