@@ -43,12 +43,13 @@
     line-height: 35px;
     margin: 20px 0;
 }
-.common-link{
+
+.common-link {
     color: rgb(13, 19, 33);
     font-size: 16px;
     line-height: 19px;
     padding-top: 50px;
-    
+
 }
 
 /* styling nav section */
@@ -173,4 +174,25 @@ nav h3 {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* Next target secction start */
+.next-target-section {
+    text-align: center;
+    padding: 48px;
+}
+
+.next-target {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 40px;
+    margin: 40px 148px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-target img {
+    margin: 40px;
 }
